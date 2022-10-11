@@ -41,6 +41,12 @@ const sidebarNav: NavItem[] = [{
     section: 'settings',
     icon: "<i className='bx bx-cog'></i>",
     text: 'Settings'
-}]
+},{
+    link: '/login',
+    section: 'login',
+    icon: "<i className='bx bx-cog'></i>",
+    text: 'Login'
+}
+]
 
 export default sidebarNav
